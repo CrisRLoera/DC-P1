@@ -63,4 +63,4 @@ if st.button("Predecir Precio"):
     prediccion = modelo.predict(nuevos_datos_preparados)
     
     # Mostrar el resultado
-    st.success(f"El precio estimado de la vivienda es: ${prediccion[0] * 100000:.2f}")
+    st.success(f"El precio estimado de la vivienda es: ${prediccion[0]}")
