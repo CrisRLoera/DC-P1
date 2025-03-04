@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import joblib  # Para cargar el modelo guardado
+import joblib  # Cargar el modelo guardado
 from sklearn.base import BaseEstimator, TransformerMixin
 
 # Índices de las columnas para las operaciones
